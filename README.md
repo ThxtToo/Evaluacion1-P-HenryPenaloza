@@ -16,9 +16,7 @@ Institución: Universidad Politécnica Territorial del Estado Aragua "Federico B
 
 * **Henry Peñaloza**
 
----
-
-##  Instrucciones de Instalación y Ejecución
+##  Instrucciones de Instalación y Ejecución (lo pongo por si acaso profe, tengo rato que no uso windows)
 
 ###  Para Usuarios de Linux (antiX / Debian / Ubuntu)
 
@@ -35,8 +33,6 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 5. Iniciar servidor:
 php artisan serve
-6. Ir a (ejemplo) http://127.0.0.1:8000/empleados
-
 
 ### Para Usuarios de Windows
 
@@ -52,15 +48,5 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 5. Iniciar servidor:
 php artisan serve
-6. Ir a (ejemplo) http://127.0.0.1:8000/empleados
 
----
-
-## Tecnologías Utilizadas
-
-* Framework: Laravel 12
-* Lenguaje: PHP 8.2+
-* Base de Datos: SQLite
-* Control de Versiones: Git / GitHub
-* Sistema Operativo: antiX Linux
 
