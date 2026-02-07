@@ -1,12 +1,65 @@
-# EVALUACIÓN 1 - Paradigmas de Programación
-[cite_start]**Universidad:** Universidad Politécnica Territorial del Estado Aragua "Federico Brito Figueroa" 
-[cite_start]**Carrera:** Informática
-[cite_start]**Integrantes:** Henry Josue Peñaloza Lezama C.I: 31.696.020
-[cite_start]**Enunciado:** Enunciado 4: Recursos Humanos
+EVALUACIÓN 1 - Paradigmas de Programación (Fase III)
 
-## Instrucciones para ejecutar el proyecto:
-OJO PROFE YO USO ANTIX LINUX (ni idea honestamente como sería en otro lado, no sé si sea igual)
-1. [cite_start]Clonar el repositorio.
-2. [cite_start]Ejecutar `composer install` para instalar las dependencias.
-3. [cite_start]Ejecutar `php artisan migrate:fresh --seed` para crear la base de datos y los registros iniciales.
-4. [cite_start]Ejecutar `php artisan serve` para iniciar el servidor.
+Institución: Universidad Politécnica Territorial del Estado Aragua "Federico Brito Figueroa"
+
+**Sede:** La Victoria - Estado Aragua
+
+**PNF:** Informática
+
+**Profesor:** Elías Vargas
+
+**Enunciado:** Enunciado 4 - Recursos Humanos (Gestión de Empleados)
+
+---
+
+## 👥 Integrantes
+
+* **Henry Peñaloza**
+* **[Pon aquí el Nombre de tu pareja]**
+
+---
+
+## 🚀 Instrucciones de Instalación y Ejecución
+
+### 🐧 Para Usuarios de Linux (antiX / Debian / Ubuntu)
+
+1. Clonar el repositorio:
+git clone [https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git](https://www.google.com/search?q=https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git)
+cd Evaluacion1-P-HenryPenaloza
+2. Instalar dependencias:
+composer install
+3. Configurar el entorno:
+cp .env.example .env
+touch database/database.sqlite
+4. Generar llave y ejecutar migraciones con datos de prueba:
+php artisan key:generate
+php artisan migrate:fresh --seed
+5. Iniciar servidor:
+php artisan serve
+
+### 🪟 Para Usuarios de Windows
+
+1. Clonar el repositorio:
+git clone [https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git](https://www.google.com/search?q=https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git)
+cd Evaluacion1-P-HenryPenaloza
+2. Instalar dependencias:
+composer install
+3. Preparar el archivo de configuración:
+copy .env.example .env
+4. Ejecutar base de datos y llaves:
+php artisan key:generate
+php artisan migrate:fresh --seed
+5. Iniciar servidor:
+php artisan serve
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* Framework: Laravel 12
+* Lenguaje: PHP 8.2+
+* Base de Datos: SQLite
+* Control de Versiones: Git / GitHub
+* Sistema Operativo de Desarrollo: antiX Linux
+
+---
