@@ -35,6 +35,8 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 5. Iniciar servidor:
 php artisan serve
+6. Ir a (ejemplo) http://127.0.0.1:8000/empleados
+
 
 ### Para Usuarios de Windows
 
@@ -50,6 +52,7 @@ php artisan key:generate
 php artisan migrate:fresh --seed
 5. Iniciar servidor:
 php artisan serve
+6. Ir a (ejemplo) http://127.0.0.1:8000/empleados
 
 ---
 
@@ -59,5 +62,5 @@ php artisan serve
 * Lenguaje: PHP 8.2+
 * Base de Datos: SQLite
 * Control de Versiones: Git / GitHub
-* Sistema Operativo de Desarrollo: antiX Linux
+* Sistema Operativo: antiX Linux
 
