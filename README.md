@@ -12,16 +12,15 @@ Institución: Universidad Politécnica Territorial del Estado Aragua "Federico B
 
 ---
 
-## 👥 Integrantes
+##  Integrantes
 
 * **Henry Peñaloza**
-* **[Pon aquí el Nombre de tu pareja]**
 
 ---
 
-## 🚀 Instrucciones de Instalación y Ejecución
+##  Instrucciones de Instalación y Ejecución
 
-### 🐧 Para Usuarios de Linux (antiX / Debian / Ubuntu)
+###  Para Usuarios de Linux (antiX / Debian / Ubuntu)
 
 1. Clonar el repositorio:
 git clone [https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git](https://www.google.com/search?q=https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git)
@@ -37,7 +36,7 @@ php artisan migrate:fresh --seed
 5. Iniciar servidor:
 php artisan serve
 
-### 🪟 Para Usuarios de Windows
+### Para Usuarios de Windows
 
 1. Clonar el repositorio:
 git clone [https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git](https://www.google.com/search?q=https://github.com/ThxtToo/Evaluacion1-P-HenryPenaloza.git)
@@ -54,7 +53,7 @@ php artisan serve
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 * Framework: Laravel 12
 * Lenguaje: PHP 8.2+
@@ -62,4 +61,3 @@ php artisan serve
 * Control de Versiones: Git / GitHub
 * Sistema Operativo de Desarrollo: antiX Linux
 
----
